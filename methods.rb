@@ -5,14 +5,11 @@ def greet_programmer
 end
 greet_programmer
 
-
 def greet name
     puts "Hello, #{name}!"
 end
 greet("Naureen")
 greet("Jimmy")
-
- 
 
 def greet_with_default name="programmer"
     puts "Hello, #{name}!"
@@ -26,7 +23,6 @@ def add num1, num2
     return num1 +num2
 end
 add(3,2)
-
 
 def halve number
     if number ==0 || number.class == String
